@@ -216,6 +216,7 @@ int load_database(vector<char>* entries) {
 		printf("The file couldn't be opened, make shure that you spelled the name correctly\n");
 		return 1;
 	}
+	file.close();
 }
 
 int main() {
